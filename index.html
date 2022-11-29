@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Click me bish</title>
+    <title>Click me again bish</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="container">
-        <button class="btn" onclick="clicked()">Click me bish.</button>
-    </div>    
+        <h1>
+            Click the button below to get the hex numbers of a random color
+        </h1>
+        <h2>
+            The hex code of this color is #<span id="hex-code">00000</span>
+        </h2>
+
+        <button type="button" class="btn" onclick="changeColor()">Click me bish.</button>
+    </div>
 
 
     <script src="app.js"></script>
 </body>
+
 </html>

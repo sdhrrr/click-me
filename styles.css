@@ -2,25 +2,68 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
+    text-align: center;
 }
+
 
 .btn {
     height: 4rem;
-    width: 9rem;
-    font-size: 1.3rem;
+    width: 10rem;
+    font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont;
     background-color: cornflowerblue;
-    color: white;
-    border: 2px solid royalblue;
+    /* color: white; */
+    /* border: 2px solid royalblue; */
+    border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: 10px;
+    text-transform:uppercase;
+    animation: colorchange 3s infinite alternate;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    letter-spacing: 8px;
+    padding: 16px;
+}
+
+
+@keyframes colorchange {
+
+    0% {
+        color: silver;
+    }
+    20% {
+        color: grey;
+    }
+    40% {
+        color: #f8b887;
+    }
+    60% {
+        color: #fa8989;
+    }
+    80% {
+        color: #E97777;
+    }
+    100% {
+        color: #FC4F4F;
+    }
+    
+}
 
